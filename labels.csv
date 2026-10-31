@@ -1,0 +1,17 @@
+recording,start_s,end_s,label
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,0.0,12.33,still
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,12.33,16.33,transition
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,16.33,30.83,standing
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,30.83,44.83,walking
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,44.83,50.33,transition
+Mixed_mostly_sure_of_split_times-2026-10-27_08-29-39,50.33,64.06,jumping
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,0.0,12.83,still
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,12.83,15.33,transition
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,15.33,17.33,walking
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,17.33,18.83,transition
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,18.83,31.33,standing
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,31.33,35.83,transition
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,35.83,54.33,walking
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,54.33,57.33,transition
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,57.33,67.33,jumping
+Mixed_unsure_of_split_times-2026-10-27_08-31-06,67.33,71.7,transition
