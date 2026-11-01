@@ -1,7 +1,3 @@
-"""Toy 2-state HMM: check forward and Viterbi against brute-force enumeration.
-
-Run from the project root:  python -m unittest discover tests
-"""
 import itertools
 import sys
 import unittest
@@ -10,7 +6,7 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from hmm import GaussianHMM  # noqa: E402
+from hmm import GaussianHMM  
 
 
 def toy_model() -> GaussianHMM:
@@ -60,7 +56,7 @@ class TestToyHMM(unittest.TestCase):
         rng = np.random.default_rng(0)
         m = toy_model()
         seqs = [rng.normal(size=(30, 1)) + 3 * (rng.random((30, 1)) > 0.5) for _ in range(3)]
-        m.tol = -np.inf  # run the full cap so we can inspect the curve
+        m.tol = -np.inf  
         m.max_iter = 15
         m.fit_baum_welch(seqs)
         self.assertTrue(np.all(np.diff(m.history_) > -1e-8))
