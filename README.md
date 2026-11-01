@@ -2,8 +2,8 @@
 
 This project classifies four activities (jumping, standing, still, walking) from phone sensor recordings made with the Sensor Logger app. It uses a Gaussian Hidden Markov Model that is implemented with numpy only, in [src/hmm.py](src/hmm.py). Everything runs on the CPU.
 
-- **Report:** [reports/report.pdf](reports/report.pdf)
-- **Videos:** <add link>
+- **Report:** [reports](https://docs.google.com/document/d/1Cq23kvQ2f6heMvKk0SJE-4Rh7vU_Do0P9ZjB41ZMpJQ/edit?usp=sharing)
+- **Videos:** <https://drive.google.com/drive/folders/18-dSdfsnZiCCuFZRkH_MDnoevnEu29D3?usp=sharing>
 
 ## Setup
 ```bash
